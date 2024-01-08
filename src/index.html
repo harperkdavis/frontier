@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>FRONTIER</title>
+        <style>            
+            body {
+                padding: 0;
+                margin: 0;
+                overflow: hidden;
+                touch-action: none;
+            }
+            #editor {
+              position: absolute;
+              right: 1rem;
+              bottom: 1rem;
+            }
+        </style>
+      <script src="./lib/p5.min.js"></script>
+      <script src="./lib/p5.sound.min.js"></script>
+      <script type="module" src="./module.ts"></script>
+      <script src="./editor.js"></script>
+      <script src="./sketch.js"></script>
+  </head>
+
+  <body>
+      <main>
+      </main>
+      <div id="editor" style="display: none;">
+        <input id="editor-input-0" type="text" value="" />
+        <input id="editor-input-1" type="text" value="" />
+        <input id="editor-input-2" type="text" value="" />
+        <input id="editor-input-3" type="number" value="" />
+      </div>
+  </body>
+
+</html>
